@@ -1,0 +1,40 @@
+.left-content-rht-img:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/sect-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: lighten;
+    }
+    .left-content-rht-img {
+    background-color: #2708E4;
+    position: relative;
+    padding: 78px 0 74px;
+    }
+    .left-content-rht-img .inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .left-content-rht-img .rht-img {
+    width: 45%;
+    }
+    .left-content-rht-img .left-blk {
+    width: 55%;
+    padding-right: 110px;
+    }
+    .left-content-rht-img .title h2 {
+    color: #ffffff;
+    }
+    .left-content-rht-img .blk-cnt {
+    margin: 40px 0 0;
+    }
+    .left-content-rht-img .blk-cnt p {
+    color: #ffffff;
+    }

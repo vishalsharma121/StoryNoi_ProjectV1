@@ -1,0 +1,58 @@
+/* lft-cnt-rgt-img css */
+.lft-cnt-rgt-img {
+    padding: 120px 0 212px;
+    background-color: #FF65C3;
+    position: relative;
+    overflow: hidden;
+    }
+    .lft-cnt-rgt-img:before {
+    position: absolute;
+    top: 90px;
+    left: -19px;
+    width: 116px;
+    height: 125px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/left-shape-section.png);
+    content: "";
+    z-index: 1;
+    }
+    .lft-cnt-rgt-img .rht-ful-img {
+    position: absolute;
+    right: -90px;
+    width: 50%;
+    max-width: 100%;
+    height: calc(100% - 132px);
+    top: 0;
+    bottom: 0;
+    }
+    .lft-cnt-rgt-img .rht-ful-img img {
+    height: 100%;
+    object-fit: cover;
+    }
+    .lft-cnt-rgt-img .inner {
+    width: 50%;
+    position: relative;
+    }
+    .lft-cnt-rgt-img .inner:before {
+    position: absolute;
+    bottom: -133px;
+    right: -89px;
+    width: 77px;
+    height: 84px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/center-shap.png);
+    content: "";
+    z-index: 1;
+    }
+    .lft-cnt-rgt-img .content p:last-child {
+    margin-bottom: 0;
+    }
+    .lft-cnt-rgt-img .content {
+    margin: 40px 0 0;
+    }
+    .lft-cnt-rgt-img .content p {
+    margin-bottom: 51px;
+    }
+    /* lft-cnt-rgt-img css end */

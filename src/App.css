@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  img{
+  width: 100%;
+  vertical-align: bottom;
+  }
+  body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  a {
+  text-decoration: none;
+  }
+  .container {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  }
+  h1{
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  h2 {
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  h3{
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  }
+  h4{
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 107.143% */
+  text-transform: capitalize;
+  }
+  h5{
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+  h1 span.color {
+  color: #FF8E00;
+  }
+  p {
+  color: #101010;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  text-transform: capitalize;
+  }
+  /* header css */

@@ -1,0 +1,45 @@
+/* header css */
+header.outer .navigation ul li {
+    display: inline-block;
+    margin: 0 26px;
+    }
+    header.outer .navigation ul li:last-child {
+    margin: 0 0 0 56px;
+    }
+    header.outer .navigation ul li:last-child a {
+    border-radius: 12px;
+    border: 2px solid #000;
+    padding: 12px 43px;
+    display: inline-block;
+    }
+    header.outer .left-logo {
+    max-width: 182px;
+    width: 100%;
+    }   
+    header.outer .navigation ul li a {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    }
+    header.outer .inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    header.outer .navigation {
+    width: calc(100% - 182px);
+    text-align: right;
+    }
+    header.outer {
+    padding: 41px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 5;
+    }
+    /* header css end*/

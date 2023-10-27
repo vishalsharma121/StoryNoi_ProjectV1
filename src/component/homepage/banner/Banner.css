@@ -1,0 +1,210 @@
+/* banner css */
+.banner-outer .inner {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+    }
+    .banner-outer h1 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+    .banner-outer .right-image {
+    width: 32%;
+    }
+    .banner-outer .center-content {
+    width: 22%;
+    }
+    .banner-outer .center-content img {
+    transform: translateX(55px);
+    }
+    .banner-outer .left-content {
+    width: 46%;
+    position: relative;
+    }
+    .banner-outer .left-content:before {
+    position: absolute;
+    top: -129px;
+    right: 145px;
+    width: 124px;
+    height: 141px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/banner-left-shp.png);
+    content: "";
+    }
+    .banner-outer .left-content:after {
+    position: absolute;
+    bottom: 103px;
+    right: 343px;
+    width: 146px;
+    height: 126px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/form-back-shap.png);
+    content: "";
+    z-index: -1;
+    }
+    .banner-outer {
+    position: relative;
+    background: linear-gradient(136deg, #FEE051 0%, rgba(254, 224, 81, 0.60) 53.03%, #FEE051 100%);
+    padding: 160px 0 106px;
+    z-index: 3;
+    overflow: hidden;
+    }
+    .banner-outer .left-content form input#gsearch {
+    width: 100%;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.12);
+    border: none;
+    padding: 30px 205px 33px 30px;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(0 0 0 / 33%);
+    }
+    .banner-outer .left-content form input#gsearch::placeholder{
+        color: rgb(0 0 0 / 33%);
+    }
+    .banner-outer .left-content form input#gsearch:focus {
+    outline: none;
+    }
+    .banner-outer .left-content form {
+    position: relative;
+    margin: 33px 0 0;
+    }
+    .banner-outer .left-content form input[type="submit"] {
+    position: absolute;
+    right: 10px;
+    padding: 18px 40px;
+    margin: auto;
+    top: 13px;
+    border: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FF8E00;
+    border-radius: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    }
+    .banner-outer .left-content .sub-title {
+    margin: 59px 0 0;
+    }
+    .banner-outer .assesments .left-blk {
+    width: 50%;
+    padding: 0 18px 0 0;
+    }
+    .banner-outer .assesments {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 96px 0 0;
+    }
+    .banner-outer .assesments .left-blk .cont {
+    color: #000;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+    .banner-outer .assesments .left-blk .btm-cnt {
+    color: #000;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: capitalize;
+    margin: 16px 0 0;
+    position: relative;
+    }
+    .banner-outer .assesments .left-blk .btm-cnt svg {
+    position: absolute;
+    top: 15px;
+    margin-left: 6px;
+    width: 30px;
+    }
+    .banner-outer:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 140px;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/right-shape.png);
+    content: "";
+    z-index: 1;
+    }
+    .banner-outer .shapes {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+    .banner-outer .shapes:before {
+    position: absolute;
+    bottom: -106px;
+    right: -45px;
+    width: 524px;
+    height: 162px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/bottom-right.png);
+    content: "";
+    z-index: -1;
+    }
+    .banner-outer .shapes::after {
+    position: absolute;
+    bottom: 131px;
+    left: -133px;
+    width: 122px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/left-bottom.png);
+    content: "";
+    }
+    .banner-outer .shape-left-top:before {
+    position: absolute;
+    top: -158px;
+    left: -141px;
+    width: 132px;
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/left-shape.png);
+    content: "";
+    }
+    .banner-outer .shape-left-top {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    }
+    .banner-outer .container {
+    position: relative;
+    }
+    .banner-outer .bg-shp img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    max-width: 1728px;
+    max-height: 1000px;
+    object-fit: contain
+    }
+    /* banner css end */
