@@ -1,15 +1,14 @@
 import React from 'react';
 import '../aboutus/AboutUs.css'
 import '../idea/Idea.css'
-import RightImage from './images/right-full.png';
 
-function Idea({ title, subtitle, leftcontent }) {
+function Idea({ title, subtitle, leftcontent, IdeaRight }) {
   const paragraphs = leftcontent.split('\n');
 
   return (
 <section id="idea" className="lft-cnt-rgt-img">
 <div className="rht-ful-img">
-    <img src={RightImage} alt="right image" />
+    <img src={IdeaRight} alt="AI Personalized Stories" />
 </div>
 <div className="container">
     <div className="inner">

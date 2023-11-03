@@ -1,15 +1,14 @@
 import React from 'react';
-import LeftImage from './images/left-imgg.png';
 import '../why/Why.css';
 
-function Why({ subContent, title, mainContent, listTitle, benefits }) {
+function Why({ subContent, title, mainContent, listTitle, benefits, WhyLeft }) {
   return (
 
     <section id="why-storynoi" className="left-img-rgt-cnt">
       <div className="container">
         <div className="inner">
           <div className="left-img">
-            <img src={LeftImage} alt="Left Image" />
+            <img src={WhyLeft} alt="Why StoryNoi" />
           </div>
           <div className="rht-cnt">
             <div className="sub-content">

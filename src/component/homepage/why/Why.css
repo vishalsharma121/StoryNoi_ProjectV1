@@ -12,7 +12,7 @@
     height: 237px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./images/right-top-shape.png);
+    background-image: url(../../images/why-right-top-shape.png);
     content: "";
     z-index: 0;
     }
@@ -24,7 +24,7 @@
     height: 126px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./images/top-shap.png);
+    background-image: url(../../images/why-top-shap.png);
     content: "";
     z-index: 1;
     mix-blend-mode: luminosity;
@@ -38,7 +38,7 @@
     content: "";
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./images/lft-shp.png);
+    background-image: url(../../images/why-lft-shp.png);
     mix-blend-mode: luminosity;
     }
     .left-img-rgt-cnt .rht-cnt {
@@ -61,7 +61,7 @@
     left: -144px;
     width: 174px;
     height: 213px;
-    background-image: url(./images/left-btm.png);
+    background-image: url(../../images/why-left-btm.png);
     background-repeat: no-repeat;
     z-index: 0;
     }
@@ -94,7 +94,7 @@
     left: 0;
     width: 16px;
     height: 12px;
-    background-image: url(./images/true.png);
+    background-image: url(../../images/why-true.png);
     background-size: cover;
     background-repeat: no-repeat;
     }

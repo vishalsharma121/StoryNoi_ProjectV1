@@ -1,10 +1,10 @@
 import React from 'react';
 import '../banner/Banner.css';
-import BannerImage from './images/banner.png';
-import AichatImage from './images/ai-chat.svg';
-import RightImage from './images/rht-img.png';
 
-function Banner({ titleblack, titlecolor, subtitle, countertitle, counternumber, ratingtitle, ratingpoint }) {
+function Banner({ titleblack, titlecolor, subtitle, countertitle, counternumber, ratingtitle, ratingpoint, BannerImage, BannerAichat, BannerRight }) {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
   return (
     <section className="banner-outer">
       <div className="bg-shp">
@@ -21,7 +21,7 @@ function Banner({ titleblack, titlecolor, subtitle, countertitle, counternumber,
             <div className="sub-title">
               <h3>{subtitle}</h3>
             </div>
-            <form action="/action_page.php">
+            <form onSubmit={handleSubmit}>
               <input
                 type="search"
                 id="gsearch"
@@ -38,7 +38,7 @@ function Banner({ titleblack, titlecolor, subtitle, countertitle, counternumber,
               <div className="left-blk">
                 <div className="cont">{ratingtitle}</div>
                 <div className="btm-cnt">
-                {ratingpoint}
+                  {ratingpoint}
                   <svg
                     width="32"
                     height="30"
@@ -55,10 +55,10 @@ function Banner({ titleblack, titlecolor, subtitle, countertitle, counternumber,
             </div>
           </div>
           <div className="center-content">
-            <img src={AichatImage} alt="Ai chat Image" />
+            <img src={BannerAichat} alt="Ai chat" />
           </div>
           <div className="right-image">
-            <img src={RightImage} alt="Right Image" />
+            <img src={BannerRight} alt="Kid’s Book" />
           </div>
         </div>
       </div>

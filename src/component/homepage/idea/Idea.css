@@ -13,7 +13,7 @@
     height: 125px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./images/left-shape-section.png);
+    background-image: url(../../images/idea-left-shape-section.png);
     content: "";
     z-index: 1;
     }
@@ -42,7 +42,7 @@
     height: 84px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./images/center-shap.png);
+    background-image: url(../../images/idea-center-shap.png);
     content: "";
     z-index: 1;
     }

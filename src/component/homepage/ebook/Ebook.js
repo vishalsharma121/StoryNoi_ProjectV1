@@ -1,8 +1,7 @@
 import React from "react";
 import '../ebook/Ebook.css';
-import RightImage from './images/rht-img-blk.png';
 
-function Ebook({ title, bottomcontent }) {
+function Ebook({ title, bottomcontent, EbookRight }) {
     const paragraphs = bottomcontent.split('\n').filter(paragraph => paragraph.trim() !== '');
 
     return (
@@ -18,7 +17,7 @@ function Ebook({ title, bottomcontent }) {
                         </div>
                     </div>
                     <div className="rht-img">
-                        <img src={RightImage} alt="Right Image" />
+                        <img src={EbookRight} alt="Ebook or Print It" />
                     </div>
                 </div>
             </div>
