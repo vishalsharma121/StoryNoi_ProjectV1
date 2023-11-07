@@ -1,0 +1,116 @@
+/* scroll-content css start */
+.scroll-content {
+    background: #FEE051;
+    padding: 161px 0 77px;
+    position: relative;
+    overflow: hidden;
+  }
+  .scroll-content:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../../images/story-bacground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: color-dodge;
+  z-index: 0;
+  }
+  .scroll-content .content {
+  border-radius: 10px;
+  background: #FFF;
+  padding: 30px 50px 32px;
+  margin-bottom: 38px;
+  }
+  .scroll-content .inner {
+  background-color: #F6F6F6;
+  padding: 70px 20px 70px 70px;
+  position: relative;
+  filter: drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.12));
+  border-radius: 22px;
+  z-index: 2;
+  }
+  .scroll-content .inner:before {
+  background-image: url(../../images/story-top-lft-shp.png);
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -115px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 136px;
+  height: 232px;
+  z-index: 0;
+  }
+  .scroll-content .container:after {
+  background-image: url(../../images/story-rght-btm-shp.png);
+  position: absolute;
+  content: "";
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 109px;
+  height: 170px;
+  z-index: 0;
+  mix-blend-mode: luminosity;
+  }
+  .scroll-content .content-block {
+  padding-right: 46px;
+  overflow-y: scroll;
+  max-height: 892px;
+  }
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  /* Chrome, Edge, and Safari */
+  .scroll-content .content-block::-webkit-scrollbar {
+  width: 6px;
+  }
+  
+  .scroll-content .content-block::-webkit-scrollbar-track {
+  background: #F6F6F6;
+  }
+  
+  .scroll-content .content-block::-webkit-scrollbar-thumb {
+  background-color: #D9D9D9;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+  }
+  .scroll-content:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 115px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../../images/story-right-shape.png);
+  content: "";
+  z-index: 1;
+  }
+  .scroll-content .container:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 39%;
+  right: 0;
+  background-image: url(../../images/story-top-centr-shp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 489px;
+  height: 126px;
+  z-index: 0;
+  mix-blend-mode: luminosity;
+  }
+  .scroll-content .content h3 {
+  font-weight: 600;
+  }
+  .scroll-content .content p {
+  margin-top: 17px;
+  line-height: 32px;
+  }
+  /* scroll-content css start */
+ 

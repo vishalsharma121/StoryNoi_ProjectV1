@@ -4,6 +4,7 @@ import Footer from './component/footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './component/login/Login';
 import HomePage from './component/homepage/homecontent/HomePage';
+import CreateStory from './component/innerpages/createstory/CreateStory';
 
 function App() {
   const sections = [
@@ -19,8 +20,10 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<Login />} />
+          {/* <Route path="/create-story" component={CreateStory} /> */}
+          <Route path="/create-story" element={<CreateStory />} />
         </Routes>
-        <Footer companyName="Your Company Name" currentYear={new Date().getFullYear()} rightsText="All Rights Reserved" />
+        <Footer companyName="Storynoi" currentYear={new Date().getFullYear()} rightsText="All Rights Reserved" />
       </div>
     </BrowserRouter>
   );

@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../banner/Banner.css';
+import { useNavigate } from 'react-router-dom';
 
 function Banner({ titleblack, titlecolor, subtitle, countertitle, counternumber, ratingtitle, ratingpoint, BannerImage, BannerAichat, BannerRight }) {
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const navigate = useNavigate();
+  const [content, setContent] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    navigate(`/create-story`);
+    // navigate(`/CreateStory?content=${content}`);
   };
+
   return (
     <section className="banner-outer">
       <div className="bg-shp">
@@ -27,6 +34,8 @@ function Banner({ titleblack, titlecolor, subtitle, countertitle, counternumber,
                 id="gsearch"
                 name="gsearch"
                 placeholder="Share your idea to start the book creation"
+                value={content}
+                onChange={(e) => setContent(e.target.value)}
               />
               <input type="submit" value="Create Story" />
             </form>
