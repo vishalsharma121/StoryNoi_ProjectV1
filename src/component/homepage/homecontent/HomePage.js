@@ -1,9 +1,11 @@
 import React from 'react';
+import HeaderNavigation from '../../header/HeaderNavigation';
 import Banner from '../banner/Banner';
 import AboutUs from '../aboutus/AboutUs';
 import Idea from '../idea/Idea';
 import Why from '../why/Why';
 import Ebook from '../ebook/Ebook';
+
 
 // Banner Images
 import BannerImage from '../../images/banner.png';
@@ -17,6 +19,12 @@ import IdeaRight from '../../images/idea-right-full.png'
 import WhyLeft from '../../images/why-left-imgg.png'
 // Why Images 
 import EbookRight from '../../images/ebook-rht-img-blk.png'
+
+  const sections = [
+    { id: 'about-section', title: 'About Us' },
+    { id: 'why-storynoi', title: 'Why StoryNoi' },
+    { id: 'idea', title: 'Idea' },
+  ];
 
 function HomePage() {
   const bannerData = {
@@ -82,6 +90,7 @@ function HomePage() {
 
   return (
     <>
+      <HeaderNavigation sections={sections} />
       <Banner {...bannerData} />
       <AboutUs {...aboutUsData} />
       <Idea {...ideaData} />

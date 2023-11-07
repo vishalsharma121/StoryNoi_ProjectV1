@@ -28,17 +28,17 @@ function Banner({ titleblack, titlecolor, subtitle, countertitle, counternumber,
             <div className="sub-title">
               <h3>{subtitle}</h3>
             </div>
-            <form onSubmit={handleSubmit}>
-              <input
-                type="search"
-                id="gsearch"
-                name="gsearch"
-                placeholder="Share your idea to start the book creation"
-                value={content}
-                onChange={(e) => setContent(e.target.value)}
-              />
-              <input type="submit" value="Create Story" />
-            </form>
+             <form onSubmit={handleSubmit}>
+        <input
+          type="search"
+          id="gsearch"
+          name="gsearch"
+          placeholder="Share your idea to start the book creation"
+          value={content}
+          onChange={(e) => setContent(e.target.value)}
+        />
+        <input type="submit" value="Create Story" />
+      </form>
             <div className="assesments">
               <div className="left-blk">
                 <div className="cont">{countertitle}</div>

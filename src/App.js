@@ -1,22 +1,17 @@
 import './App.css';
-import Header from './component/header/Header';
-import Footer from './component/footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './component/login/Login';
 import HomePage from './component/homepage/homecontent/HomePage';
 import CreateStory from './component/innerpages/createstory/CreateStory';
+import HeaderLogo from './component/header/HeaderLogo';
+import Footer from './component/footer/Footer';
 
 function App() {
-  const sections = [
-    { id: 'about-section', title: 'About Us' },
-    { id: 'why-storynoi', title: 'Why StoryNoi' },
-    { id: 'idea', title: 'Idea' },
-  ];
 
   return (
     <BrowserRouter>
       <div>
-        <Header sections={sections} />
+        <HeaderLogo></HeaderLogo>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<Login />} />
